@@ -1,0 +1,72 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+}
+
+.healthey-food {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.color {
+    color: rgb(218, 39, 7);
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 30px;
+
+}
+
+.half-width image {
+    width: 80%;
+}
+
+.button {
+    background-image: linear-gradient(to right, tomato, orange);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: purple;
+    transition: 5s;
+}
+
+.background-image {
+    background-image: url(images/7.png);
+}
+
+.container {
+    box-shadow: 5px 5px 20px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+
+.container image {
+    width: 60%;
+
+}
+
+.my-recipi-center {
+    text-align: center;
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+
+}
