@@ -5,12 +5,14 @@ body {
 
 .healthey-food {
     display: flex;
+    width: 95%;
     margin-bottom: 80px;
 
 }
 
 h1 {
     font-size: 60px;
+
 }
 
 .color {
@@ -37,6 +39,13 @@ h1 {
 
 .background-image {
     background-image: url(images/7.png);
+    padding-right: 90px;
+}
+
+.about-option {
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 10px;
 }
 
 /* container-start */
@@ -50,15 +59,16 @@ h1 {
     height: 400px;
     margin-right: 5%;
     margin-left: 5%x;
+    margin-top: 30px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
 
 }
 
 .container-image {
-    width: 230x;
     height: 200px;
-    padding-top: 20px;
+    padding: 20px 25px;
+
 }
 
 .my-recipi-center {
@@ -67,6 +77,22 @@ h1 {
 
 /* container-end */
 
+
+
+.social-section {
+    box-shadow: 2px 2px 10px gray;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.social {
+    width: 28%;
+    padding-left: 100px;
+}
 
 /* footer */
 .footer {
